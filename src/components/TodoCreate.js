@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled, { css } from "styled-components";
 import { MdAdd } from "react-icons/md";
-import { useTodoDIspatch, useTodoNextId, useTodoDispatch } from "../TodoContext";
+import { useTodoNextId, useTodoDispatch } from "../TodoContext";
 
 const CircleButton = styled.div`
   background: #38d9a9;
